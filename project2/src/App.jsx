@@ -34,7 +34,7 @@ function App() {
             <div className="rectangle-2" />
           </div>
         </div>
-        <img className="FOOD" alt="Food" src="FOOD.png" />
+        <a href="https://ibb.co/0q9Wc1P"><img src="https://i.ibb.co/Q9Hqfhs/FOOD.jpg" className="FOOD" alt="FOOD" border="0"/></a>
         <img className="ryo-takemasa" alt="Ryo takemasa" src="ryo-takemasa-1.png" />
         <div className="rectangle-3" />
         <p className="lorem-ipsum-is">
