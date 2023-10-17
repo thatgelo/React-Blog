@@ -7,6 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
 
+
   return (
     <>
       <div className="macbook-air">
@@ -33,7 +34,7 @@ function App() {
             <div className="rectangle-2" />
           </div>
         </div>
-        <img className="FOOD" alt="Food" src="FOOD-1.png" />
+        <img className="FOOD" alt="Food" src="FOOD-1.png" /> 
         <img className="ryo-takemasa" alt="Ryo takemasa" src="ryo-takemasa-1.png" />
         <div className="rectangle-3" />
         <p className="lorem-ipsum-is">
