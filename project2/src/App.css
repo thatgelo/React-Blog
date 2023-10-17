@@ -1,42 +1,209 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.macbook-air {
+  background-color: #e7e7d5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.macbook-air .div {
+  background-color: #e7e7d5;
+  height: 832px;
+  position: relative;
+  width: 1280px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.macbook-air .text-wrapper {
+  color: #313131;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 165px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  width: 399px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.macbook-air .group {
+  height: 40px;
+  left: 761px;
+  position: absolute;
+  top: 62px;
+  width: 474px;
 }
 
-.card {
-  padding: 2em;
+.macbook-air .navbar {
+  height: 40px;
+  position: relative;
+  width: 466px;
 }
 
-.read-the-docs {
-  color: #888;
+.macbook-air .text-wrapper-2 {
+  color: #575b5bb2;
+  font-family: "Inknut Antiqua-Light", Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.macbook-air .text-wrapper-3 {
+  color: #575b5bb2;
+  font-family: "Inknut Antiqua-Light", Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  left: 110px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.macbook-air .text-wrapper-4 {
+  color: #575b5bb2;
+  font-family: "Inknut Antiqua-Light", Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  left: 232px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.macbook-air .text-wrapper-5 {
+  color: #575b5bb2;
+  font-family: "Inknut Antiqua-Light", Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  left: 310px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.macbook-air .download-free-image {
+  height: 548px;
+  left: 60px;
+  object-fit: cover;
+  position: absolute;
+  top: 176px;
+  width: 387px;
+}
+
+.macbook-air .balanced-diet {
+  height: 94px;
+  left: 60px;
+  object-fit: cover;
+  position: absolute;
+  top: 35px;
+  width: 94px;
+}
+
+.macbook-air .overlap-wrapper {
+  height: 66px;
+  left: 504px;
+  position: absolute;
+  top: 143px;
+  width: 732px;
+}
+
+.macbook-air .overlap {
+  height: 66px;
+  position: relative;
+  width: 730px;
+}
+
+.macbook-air .text-wrapper-6 {
+  color: #313131;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 399px;
+}
+
+.macbook-air .rectangle {
+  background-color: #313131;
+  height: 6px;
+  left: 315px;
+  position: absolute;
+  top: 33px;
+  width: 415px;
+}
+
+.macbook-air .rectangle-2 {
+  background-color: #313131;
+  height: 2px;
+  left: 315px;
+  position: absolute;
+  top: 43px;
+  width: 415px;
+}
+
+.macbook-air .FOOD {
+  height: 218px;
+  left: 503px;
+  object-fit: cover;
+  position: absolute;
+  top: 216px;
+  width: 218px;
+}
+
+.macbook-air .ryo-takemasa {
+  height: 218px;
+  left: 503px;
+  object-fit: cover;
+  position: absolute;
+  top: 495px;
+  width: 218px;
+}
+
+.macbook-air .rectangle-3 {
+  background-color: #313131;
+  height: 4px;
+  left: 503px;
+  position: absolute;
+  top: 463px;
+  width: 731px;
+}
+
+.macbook-air .lorem-ipsum-is {
+  color: #000000;
+  font-family: "Inknut Antiqua-Light", Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  left: 764px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 220px;
+  width: 463px;
+}
+
+.macbook-air .p {
+  color: #000000;
+  font-family: "Inknut Antiqua-Light", Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  left: 764px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 491px;
+  width: 463px;
 }
