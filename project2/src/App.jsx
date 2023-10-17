@@ -26,7 +26,7 @@ function App() {
           alt="Download free image"
           src="download-free-image-of-ocean-life-fish-antique-clipart-illustration-collection-by-jingpixar-about-aquarium-fish-illustration-vintage-sea-sea-and-vintage-animal-2676462-1.png"
         />
-        <img className="balanced-diet" alt="Balanced diet" src="balanced-diet-1.png" />
+        <img className="balanced-diet" alt="Balanced diet" src="assets/balanced-diet.png" />
         <div className="overlap-wrapper">
           <div className="overlap">
             <div className="text-wrapper-6">Featured Articles</div>
@@ -34,7 +34,7 @@ function App() {
             <div className="rectangle-2" />
           </div>
         </div>
-        <img className="FOOD" alt="Food" src="FOOD-1.png" />
+        <img className="FOOD" alt="Food" src="FOOD.png" />
         <img className="ryo-takemasa" alt="Ryo takemasa" src="ryo-takemasa-1.png" />
         <div className="rectangle-3" />
         <p className="lorem-ipsum-is">
