@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Button from "./Button";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,10 +15,10 @@ function App() {
         <div className="text-wrapper">Project 2 Food Blog</div>
         <div className="group">
           <div className="navbar">
-            <div className="text-wrapper-2">About</div>
-            <div className="text-wrapper-3">Articles</div>
-            <div className="text-wrapper-4">Blog</div>
-            <div className="text-wrapper-5">Contact</div>
+            <Button text="About"></Button>
+            <Button text="Articles"></Button>
+            <Button text="Blog"></Button>
+            <Button text="Contact"></Button>
           </div>
         </div>
         <img
