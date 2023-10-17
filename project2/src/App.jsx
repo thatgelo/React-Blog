@@ -21,12 +21,8 @@ function App() {
             <Button text="Contact"></Button>
           </div>
         </div>
-        <img
-          className="download-free-image"
-          alt="Download free image"
-          src="download-free-image-of-ocean-life-fish-antique-clipart-illustration-collection-by-jingpixar-about-aquarium-fish-illustration-vintage-sea-sea-and-vintage-animal-2676462-1.png"
-        />
-        <img className="balanced-diet" alt="Balanced diet" src="assets/balanced-diet.png" />
+        <a href="https://ibb.co/2MLHLkp"><img src="https://i.ibb.co/fNKLKxT/Download-free-image-of-Ocean-life-fish-antique-clipart-illustration-collection-by-jingpixar-about-aq.jpg" alt="Download-free-image-of-Ocean-life-fish-antique-clipart-illustration-collection-by-jingpixar-about-aq"  className="download-free-image" border="0"/></a>
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/znDDP2v/balanced-diet.png" className="balanced-diet" alt="balanced-diet" border="0"/></a>
         <div className="overlap-wrapper">
           <div className="overlap">
             <div className="text-wrapper-6">Featured Articles</div>
@@ -35,7 +31,7 @@ function App() {
           </div>
         </div>
         <a href="https://ibb.co/0q9Wc1P"><img src="https://i.ibb.co/Q9Hqfhs/FOOD.jpg" className="FOOD" alt="FOOD" border="0"/></a>
-        <img className="ryo-takemasa" alt="Ryo takemasa" src="ryo-takemasa-1.png" />
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/mNxD10n/Ryo-Takemasa.jpg" className="ryo-takemasa" alt="Ryo-Takemasa" border="0"/></a>
         <div className="rectangle-3" />
         <p className="lorem-ipsum-is">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
