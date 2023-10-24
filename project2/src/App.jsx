@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Button from "./Button";
+import Button from "./Button"
 
 function App() {
 
@@ -13,9 +13,7 @@ function App() {
         <div className="text-wrapper">Project 2 Food Blog</div>
         <div className="group">
           <div className="navbar">
-            <Button text="About"></Button>
-            <Button text="Articles"></Button>
-            <Button text="Blog"></Button>
+            <Button className="button" text="About"></Button>
             <Button text="Contact"></Button>
           </div>
         </div>
@@ -51,6 +49,7 @@ function App() {
 }
 
 export default App
+
 
 
 import React from "react";

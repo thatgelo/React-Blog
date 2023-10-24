@@ -22,22 +22,22 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 40px;
+  top: 75px;
   width: 399px;
 }
 
 .macbook-air .group {
   height: 40px;
-  left: 761px;
+  right: 36px;
   position: absolute;
   top: 62px;
-  width: 474px;
+  padding: 0px;
 }
 
 .macbook-air .navbar {
   height: 40px;
   position: relative;
-  width: 466px;
+  padding: -10px;
 }
 
 .macbook-air .text-wrapper-2 {
@@ -107,7 +107,7 @@
   left: 60px;
   object-fit: cover;
   position: absolute;
-  top: 35px;
+  top: 45px;
   width: 94px;
   cursor: default;
 }
@@ -210,6 +210,11 @@
   position: absolute;
   top: 491px;
   width: 463px;
+}
+
+.macbook-air .navbar Button {
+  margin: 10px;
+  background-color: darkolivegreen;
 }
 
 
