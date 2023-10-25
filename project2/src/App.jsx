@@ -2,7 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { createBrowserRouter, BrowserRouter, Router, RouterProvider, Link } from 'react-router-dom'
 import Button from "./Button"
+import About from "./about"
+import ArticleOne from './articleone'
+
 
 function App() {
 
@@ -13,12 +17,18 @@ function App() {
         <div className="text-wrapper">Project 2 Food Blog</div>
         <div className="group">
           <div className="navbar">
-            <Button className="button" text="About"></Button>
-            <Button text="Contact"></Button>
+            <BrowserRouter>
+              <Link to='/about'>
+                <button className='button'>About</button>
+              </Link>
+              <Link to='/'>
+                <button className='button'>Home</button>
+              </Link>
+            </BrowserRouter>
           </div>
         </div>
-        <a href="https://ibb.co/2MLHLkp"><img src="https://i.ibb.co/fNKLKxT/Download-free-image-of-Ocean-life-fish-antique-clipart-illustration-collection-by-jingpixar-about-aq.jpg" alt="Download-free-image-of-Ocean-life-fish-antique-clipart-illustration-collection-by-jingpixar-about-aq"  className="download-free-image" border="0"/></a>
-        <a href="https://imgbb.com/"><img src="https://i.ibb.co/znDDP2v/balanced-diet.png" className="balanced-diet" alt="balanced-diet" border="0"/></a>
+        <img src="https://i.ibb.co/fNKLKxT/Download-free-image-of-Ocean-life-fish-antique-clipart-illustration-collection-by-jingpixar-about-aq.jpg" alt="Download-free-image-of-Ocean-life-fish-antique-clipart-illustration-collection-by-jingpixar-about-aq"  className="download-free-image" border="0"/>
+        <img src="https://i.ibb.co/znDDP2v/balanced-diet.png" className="balanced-diet" alt="balanced-diet" border="0"/>
         <div className="overlap-wrapper">
           <div className="overlap">
             <div className="text-wrapper-6">Featured Articles</div>
@@ -26,14 +36,18 @@ function App() {
             <div className="rectangle-2" />
           </div>
         </div>
-        <a href="https://ibb.co/0q9Wc1P"><img src="https://i.ibb.co/Q9Hqfhs/FOOD.jpg" className="FOOD" alt="FOOD" border="0"/></a>
-        <a href="https://imgbb.com/"><img src="https://i.ibb.co/mNxD10n/Ryo-Takemasa.jpg" className="ryo-takemasa" alt="Ryo-Takemasa" border="0"/></a>
+        <img src="https://i.ibb.co/Q9Hqfhs/FOOD.jpg" className="FOOD" alt="FOOD" border="0"/>
+        <img src="https://i.ibb.co/mNxD10n/Ryo-Takemasa.jpg" className="ryo-takemasa" alt="Ryo-Takemasa" border="0"/>
         <div className="rectangle-3" />
         <p className="lorem-ipsum-is">
-          <h3>Article 1</h3>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-          industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only five centuries.
+          <BrowserRouter>
+            <Link to='/articleone'>
+              <h3>Mukbangs: What's the Hype?</h3>
+            </Link>
+          </BrowserRouter>
+          Mukbangs are a rising internet trend where people film themselves eating, whether it be a tiny snack or a huge 5 course meal.
+          Many people, myself included, have watched a couple of mukbangs at least once in our lives. What makes them so interesting? On the surface level,
+          it's just a person eating food on the screen - we don't get anything out of it. However, as we delve deeper, the truth starts to unravel itself.
         </p>
         <p className="p">
           <h3>Article 2</h3>
@@ -43,17 +57,27 @@ function App() {
         </p>
       </div>
     </div>
-  );
+    <RouterProvider router={router}/>
     </>
-  )
+  );
 }
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>home</div>,
+  },
+  {
+    path:"/about",
+    element: <About/>,
+  },
+  {
+    path:"/articleone",
+    element: <ArticleOne/>
+  }
+]);
 
 export default App
 
 
 
-import React from "react";
-import "./App.css";
-
-export const MacbookAir = () => {
-};

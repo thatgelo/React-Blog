@@ -1,0 +1,11 @@
+.title, p {
+    color: #10100f;
+    width: 1234px;
+}
+
+#rectangle {
+    background-color: #10100f;
+    width: 1234px;
+    height: 5px;
+}
+

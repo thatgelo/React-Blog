@@ -212,9 +212,12 @@
   width: 463px;
 }
 
-.macbook-air .navbar Button {
-  margin: 10px;
+.macbook-air .navbar .button {
+  margin: 20px;
   background-color: darkolivegreen;
+  padding: 10px;
+  border-radius: 10%;
+  color: #10100f;
 }
 
 
