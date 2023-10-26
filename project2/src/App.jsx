@@ -56,9 +56,10 @@ function App() {
               <h3>Bingsu</h3>
             </Link>
           </BrowserRouter>
-          The leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-          software like Aldus PageMaker including versions of Lorem Ipsum.
+          Bingsu, a beloved Korean dessert, has taken the global culinary scene by storm with its irresistible blend of flavors and textures. 
+          This delightful treat is a perfect escape from the scorching summer heat or a welcome indulgence in any season.
+
+
         </p>
       </div>
     </div>
