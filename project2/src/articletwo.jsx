@@ -1,7 +1,7 @@
 import React from "react";
-import "./articleone.css"
 
-const ArticleOne = () => {
+
+const ArticleTwo = () => {
     return (
         <>
             <div id="rectangle"></div>
@@ -25,4 +25,4 @@ const ArticleOne = () => {
     )
 }
 
-export default ArticleOne;
+export default ArticleTwo;
