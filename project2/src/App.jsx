@@ -6,6 +6,7 @@ import { createBrowserRouter, BrowserRouter, Router, RouterProvider, Link } from
 import Button from "./Button"
 import About from "./about"
 import ArticleOne from './articleone'
+import ArticleTwo from './articletwo'
 
 
 function App() {
@@ -50,7 +51,11 @@ function App() {
           it's just a person eating food on the screen - we don't get anything out of it. However, as we delve deeper, the truth starts to unravel itself.
         </p>
         <p className="p">
-          <h3>Article 2</h3>
+        <BrowserRouter>
+            <Link to='/articletwo'>
+              <h3>Bingsu</h3>
+            </Link>
+          </BrowserRouter>
           The leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
           the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
           software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -74,6 +79,10 @@ const router = createBrowserRouter([
   {
     path:"/articleone",
     element: <ArticleOne/>
+  },
+  {
+    path:"/articletwo",
+    element: <ArticleTwo/>
   }
 ]);
 
